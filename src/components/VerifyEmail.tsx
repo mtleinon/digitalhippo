@@ -9,7 +9,7 @@ import { buttonVariants } from "./ui/button";
 interface VerifyEmailProps {
   token: string
 }
-// testing comment
+// testing comment 2
 export default function VerifyEmail({ token }: VerifyEmailProps) {
   const { data, isLoading, isError }
     = trpc.auth.verifyEmail.useQuery({ token });
