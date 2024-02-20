@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import Image from 'next/image';
 import Link from "next/link";
 
-// Added a new comment in master branch
+// A test comment
 
 type Category = (typeof PRODUCT_CATEGORIES)[number];
 
