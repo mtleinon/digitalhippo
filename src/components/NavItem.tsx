@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import Image from 'next/image';
 import Link from "next/link";
 
+// Added a new comment in master branch
+
 type Category = (typeof PRODUCT_CATEGORIES)[number];
 
 interface NavItemProps {
